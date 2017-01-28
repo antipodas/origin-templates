@@ -88,7 +88,7 @@ objects:
         from:
           kind: ImageStreamTag
           name: redis:latest
-          namespace: openshift
+          namespace: poc
         lastTriggeredImage: ""
       type: ImageChange
     - type: ConfigChange
